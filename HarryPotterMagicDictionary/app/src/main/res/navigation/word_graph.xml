@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/word_graph"
+    app:startDestination="@id/wordListFragment">
+
+    <fragment
+        android:id="@+id/wordListFragment"
+        android:name="com.example.harrypottermagicdictionary.view.WordListFragment"
+        android:label="WordListFragment"
+        tools:layout="@layout/fragment_word_list">
+        <action
+            android:id="@+id/action_wordListFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.harrypottermagicdictionary.view.DetailFragment"
+        android:label="DetailFragment"
+        tools:layout="@layout/fragment_detail">
+        <action
+            android:id="@+id/action_detailFragment_to_wordListFragment"
+            app:destination="@id/wordListFragment" />
+        <argument
+            android:name="wordId"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>
