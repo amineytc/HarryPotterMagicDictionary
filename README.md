@@ -6,4 +6,4 @@
 + [Data Binding](https://developer.android.com/topic/libraries/data-binding) is used on xml
 + Used [Glide](https://bumptech.github.io/glide/) an image upload library
 ## Preview
-![screens](https://github.com/amineytc/HarryPotterMagicDictionary/assets/75496744/32f8a513-cc7b-445e-8efd-e4a07ba36163)
+![screens](https://github.com/amineytc/HarryPotterMagicDictionary/assets/75496744/164c3ee4-e24b-482e-a57a-e9d7cdaca647)
