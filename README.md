@@ -1,4 +1,5 @@
 # HarryPotterMagicDictionary
+#### Dictionary study with spells in the Harry Potter series
 + Splash screen created using [Lottie Files](https://lottiefiles.com/)
 + [MVVM](https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm) architecture is used
 + [Retrofit](https://square.github.io/retrofit/) library was used for data extraction
